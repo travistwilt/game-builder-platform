@@ -3,7 +3,6 @@ class CreateUsers < ActiveRecord::Migration[6.1]
     create_table :users do |t|
       t.string :fname
       t.string :lname
-
       t.timestamps
     end
   end
